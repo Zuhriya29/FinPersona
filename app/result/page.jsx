@@ -205,10 +205,10 @@ LEARNING:
                             <div className="flex items-center gap-8">
                                 <div className="w-32 h-32 rounded-full border15 border-[#F3731F] border-l-(--primary-color) flex items-center justify-center" style={{
                                     background: `conic-gradient(
-              var(--primary-color) 0% ${stocks}%,
-              #F3731F ${stocks}% ${stocks + bonds}%,
-              #F3C531 ${stocks + bonds}% 100%
-            )`,
+                                #082042 0% ${result.chart.stocks}%, 
+                                #F3731F ${result.chart.stocks}% ${result.chart.stocks + result.chart.bonds}%, 
+                                #F3C531 ${result.chart.stocks + result.chart.bonds}% 100%
+                            )`,
                                 }}>
                                     <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center px-2">
                                         <span>
@@ -224,7 +224,7 @@ LEARNING:
                                         <span className="w-3 h-3 rounded-full bg-[#F3731F]"></span> Bonds: {bonds}%
                                     </li>
                                     <li className="flex items-center gap-2">
-                                        <span className="w-3 h-3 rounded-full bg-[#F3C531]-300"></span> Cash: {cash}%
+                                        <span className="w-3 h-3 rounded-full bg-[#F3C531]"></span> Cash: {cash}%
                                     </li>
                                 </ul>
                             </div>
