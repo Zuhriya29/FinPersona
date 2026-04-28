@@ -74,9 +74,9 @@ export default function Assessment() {
   const [selectedLabel5, setSelectedLabel5] = useState("Select a monthly saving capacity");
 
   const options5 = [
-    { value: "less-five", label: "Kurang dari Rp 500.000" },
+    { value: "less-five", label: "Less than Rp 500.000" },
     { value: "five-one", label: "Rp 500.000 – Rp 1.000.000" },
-    { value: "more-one", label: "Lebih dari Rp 1.000.000" },
+    { value: "more-one", label: "More than Rp 1.000.000" },
   ];
 
   const renderDropdown = (label, isOpen, setIsOpen, selectedLabel, options, keyName, labelSetter) => (
