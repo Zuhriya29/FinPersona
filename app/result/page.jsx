@@ -174,7 +174,7 @@ LEARNING:
 
                 <div className="result-card risk-card">
                     <h3 className="font-bold text-(--primary-color) text-xl mb-2">Risk Tolerance</h3>
-                    <p className="text-sm text-(--second-color) -500">{result.riskMeter}/15</p>
+                    <p className="text-sm text-(--second-color) -500">{result.riskMeter}/17</p>
                     <div className="risk-meter-container">
                         <div className="risk-bar"></div>
                         <div className="risk-pointer" style={{ left: `${riskScore}%` }}></div>
